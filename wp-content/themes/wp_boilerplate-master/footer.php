@@ -46,16 +46,16 @@
              <h6 class="text-uppercase font-weight-bold">Productos</h6>
              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
              <p>
-                <a href="#!">MDBootstrap</a>
+                <a href="#!"></a>
               </p>
               <p>
-                <a href="#!">MDWordPress</a>
+                <a href="#!"></a>
               </p>
                <p>
-                <a href="#!">BrandFlow</a>
+                <a href="#!"></a>
               </p>
                <p>
-               <a href="#!">Bootstrap Angular</a>
+               <a href="#!"></a>
               </p>
 
            </div>
@@ -63,19 +63,19 @@
            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
                <!-- Links -->
-                <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                <h6 class="text-uppercase font-weight-bold">Nosotros</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                  <a href="#!">Your Account</a>
+                  <a href="#!"></a>
                 </p>
                 <p>
-                  <a href="#!">Become an Affiliate</a>
+                  <a href="#!"></a>
                </p>
                 <p>
-                  <a href="#!">Shipping Rates</a>
+                  <a href="#!"></a>
                </p>
                <p>
-                 <a href="#!">Help</a>
+                 <a href="#!"></a>
               </p>
 
           </div>

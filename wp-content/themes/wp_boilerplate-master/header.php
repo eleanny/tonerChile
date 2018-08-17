@@ -7,8 +7,8 @@
        <?php wp_head() ?>
   </head>
   <body>
-       <div class="jumbotron m-0 p-0">
-         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="p-0 m-0" width="10%">
+       <div class="header jumbotron m-0 p-0">
+         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="p-0 m-0" width="12%">
       </div>
       <!--Barra de Navegacion-->
       <nav class="barra navbar navbar-expand-lg navbar-ligt bg-primary">
