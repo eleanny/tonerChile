@@ -1,62 +1,30 @@
-<?php 
+<?php
+// Estilos CSS
+  function dl_enqueue_style() {
+  $theme_data = wp_get_theme();
+/* Registrar estilos y bootstrap*/
+   wp_register_style('bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css', null, $theme_data->get( '4.1.1' ));
+   wp_register_style('style', get_parent_theme_file_uri('/assets/css/mystyle.css'), null, $theme_data->get( '1.0' ));
+   wp_register_style('icons', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css', null, $theme_data->get( '4.1.1' ));
+/* llamar estilos */
+   wp_enqueue_style( 'icons');
+   wp_enqueue_style( 'bootstrap_css');
+   wp_enqueue_style( 'style' );
+  }
 
-/**
- * Import functions folder
- * Imports all the files inside the functions folder 
- * and adds them into functions file
- *
- * @return  void
- * @since   1.0
- * @version 1.3
- */
-require_once get_template_directory() . '/functions/__get_files_from.php';
-$files = get_files_from( $theme_options['functions'] );
+   add_action( 'wp_enqueue_scripts', 'dl_enqueue_style' );
 
-foreach($files as $file) {
-	require_once $file;
-}
+  function dl_enqueue_scripts() {
+    $theme_data = wp_get_theme();
+    /* Registrar scripts */
+     wp_register_script('bootstrap_js', 'https://code.jquery.com/jquery-3.3.1.slim.min.js', array('jquery') , '3.3.1' , true);
+     wp_register_script('app', get_parent_theme_file_uri('/assets/lib/js/app.js'), null , '1.0' , true);
 
+    /* llamar scripts */
 
-/**
- * Check Minimum WP version
- * This theme only works in WordPress 4.8 or later.
- *
- * @return  void
- * @since   1.0
- */
-if ( version_compare( $GLOBALS['wp_version'], $theme_options['wp_min_version'], '<' ) ) {
-	require get_template_directory() . '/functions/back-compat.php';
-	return;
-}
+     wp_enqueue_script( 'bootstrap_js' );
+     wp_enqueue_script( 'app' );
+   }
+  add_action( 'wp_enqueue_scripts', 'dl_enqueue_scripts' );
 
-add_action( 'init', 'my_custom_init' );
-/* Here's how to create your customized labels */
-function my_custom_init() {
-	$labels = array(
-	'name' => _x( 'Noticias', 'post type general name' ),
-        'singular_name' => _x( 'Noticia', 'post type singular name' ),
-        'add_new' => _x( 'Añadir nuevo', 'book' ),
-        'add_new_item' => __( 'Añadir nuevo Libro' ),
-        'edit_item' => __( 'Editar Libro' ),
-        'new_item' => __( 'Nueva noticia' ),
-        'view_item' => __( 'Ver noticias' ),
-        'search_items' => __( 'Buscar noticia' ),
-        'not_found' =>  __( 'No se han encontrado noticias' ),
-        'parent_item_colon' => ''
-    );
- 
-    // Creamos un array para $args
-    $args = array( 'labels' => $labels,
-        'public' => true,
-        'publicly_queryable' => true,
-        'show_ui' => true,
-        'query_var' => true,
-        'rewrite' => true,
-        'capability_type' => 'post',
-        'hierarchical' => false,
-        'menu_position' => null,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
-    );
- 
-    register_post_type( 'Noticias', $args ); /* Registramos y a funcionar */
-}
+?>
