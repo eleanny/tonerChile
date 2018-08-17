@@ -3,18 +3,14 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 slyder" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/door.jpg" alt="First slide">
-       <div class="carousel-caption d-none d-md-block text-white background rounded">
-         <h2 class="pt-5">Recarga y Venta de Toner</h2>
-         <h3 class="">Calidad, rendimiento y economia</h3>
-         <button type="button" class="btn btn-primary m-3">Contáctanos!</button>
-       </div>
+      <img class="d-block w-100 slyder" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tc5.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 slyder" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/colors.jpg" alt="Second slide">
+      <img class="d-block w-100 slyder" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/door.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block text-white background rounded">
-        <h2 class="pt-5 text-dark">Calidad garantizada</h2>
-        <h3 class=" text-dark">Tres meses de garantia</h3>
+        <h2 class="pt-5 text-white">Calidad garantizada</h2>
+        <h3 class=" text-white">Tres meses de garantia</h3>
+        <button type="button" class="btn btn-primary m-3">Contáctanos!</button>
       </div>
     </div>
     <div class="carousel-item">
