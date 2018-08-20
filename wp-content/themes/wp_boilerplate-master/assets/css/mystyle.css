@@ -23,3 +23,15 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#contact{
+	width: 50%;
+}
+.inner {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 67px 10px;
+	overflow: hidden;
+	}
+#map{
+   width: 100%;
+}

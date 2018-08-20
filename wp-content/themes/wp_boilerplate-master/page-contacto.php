@@ -1,11 +1,7 @@
 <?php get_header() ?>
 	<?php the_post() ?>
-
-	<?php the_title() ?>
-	<?php the_content(); ?>
-	
-	<?php if ( is_active_sidebar( 'contact_widget' ) ) : ?>
-		<?php dynamic_sidebar( 'contact_widget' ); ?>            
-	<?php endif; ?>
-
+     <div class="container">
+	    <h3 class="pl-5 pt-4 text-info"><?php the_title() ?></h3>
+	    <p><?php the_content(); ?></p>
+     </div>
 <?php get_footer() ?>
