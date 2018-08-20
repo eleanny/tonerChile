@@ -1,5 +1,5 @@
-<footer class="" style="background-color: #cccccc;">
-   <div style="background-color: #ff00ff;">
+<footer class="footer">
+   <div class="footer-inner">
       <div class="container">
 
           <div class="row py-4 d-flex align-items-center">
@@ -10,7 +10,7 @@
               
               <div class="col-md-6 col-lg-7 text-center text-md-right">
                   <!-- Facebook -->
-                  <a class="fb-ic">
+                  <a class="fb-ic" href="https://www.facebook.com/TONERCHILECL/">
                      <i class="fab fa-facebook-f text-white mr-4"> </i>
                    </a>
                   <!-- Twitter -->
@@ -18,7 +18,7 @@
                       <i class="fab fa-twitter text-white mr-4"> </i>
                     </a>
                    <!--Instagram-->
-                    <a class="ins-ic">
+                    <a class="ins-ic" href="https://www.instagram.com/tonerchile/">
                       <i class="fab fa-instagram text-white"> </i>
                     </a>
 
@@ -66,17 +66,8 @@
                 <h6 class="text-uppercase font-weight-bold">Nosotros</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                  <a href="#!"></a>
-                </p>
-                <p>
-                  <a href="#!"></a>
+                 Empresa dedicada a la venta y reparación de insumos para impresoras , ofrecemos recargas y venta de toner con mas de 10 años de experiencia en el mercado.  
                </p>
-                <p>
-                  <a href="#!"></a>
-               </p>
-               <p>
-                 <a href="#!"></a>
-              </p>
 
           </div>
              
@@ -86,9 +77,8 @@
               <h6 class="text-uppercase font-weight-bold">Contacto</h6>
               <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
               <p><i class="fa fa-home mr-3"></i> Comuna Padre Hurtado, Santiago de Chile</p>
-              <p><i class="fa fa-envelope mr-3"></i> tonerchile@example.com</p>
-              <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-              <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+              <p><i class="fa fa-envelope mr-3"></i>ventas@tonerchile.cl</p>
+              <p><i class="fa fa-phone mr-3"></i>(2) 2521 6378</p>
          </div>
             
      </div>
