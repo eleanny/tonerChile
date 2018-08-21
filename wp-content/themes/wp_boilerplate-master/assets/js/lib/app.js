@@ -1,7 +1,19 @@
+var altura = $('.navbar').offset().top;
+
+$(window).scroll(function(){
+  // Aquí va el código que se ejecuta mientras haces el scroll y debe estar fuera del $(window).ready()
+  if ($(window).scrollTop() > altura){
+    
+     $('.navbar').addClass('fixed-top');
+    }
+  // Esta variable almacenaría la distancia con el top, para poder comparar y así ejecutar algún script en cierto minuto
+  else{
+     $('.navbar').removeClass('fixed-top');
+    }
+});
 $(document).ready(function(){
 
-
-  var coord = {
+    var coord = {
 	        santiago: {
 	        	lat: -33.4488897,
 	        	lng: -70.6692655
@@ -15,13 +27,13 @@ $(document).ready(function(){
 	        	lng: -70.3333
 	        }
          };
-  
-  function initMap() {
+
+         function initMap(city) {
   	         var map;
   	         var latitud = coord[city].lat;
   	         var longitud = coord[city].lng;
              map = new google.maps.Map(document.getElementById('map'), {
-             center: {lat: -33.4488897 , lng: -70.6692655},
+             center: {lat: -18.4833 , lng: -70.3333 },
              zoom: 8
             });
              var marker = new google.maps.Marker({
@@ -34,25 +46,9 @@ $(document).ready(function(){
             url: 'https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/js?key=AIzaSyD9g9f9fsMPAFdFx0XGUfhmsBWI0gYGK4U&callback=initMap',
             method: 'GET'
          }).then(function(){
-         	initMap();
+         	initMap('santiago');
          } );
+           
+ 
 
-
-
-
-
-
-});
-var altura = $('.navbar').offset().top;
-
-$(window).scroll(function(){
-	// Aquí va el código que se ejecuta mientras haces el scroll y debe estar fuera del $(window).ready()
-	if ($(window).scrollTop() > altura){
-	  
-	   $('.navbar').addClass('fixed-top');
-    }
-	// Esta variable almacenaría la distancia con el top, para poder comparar y así ejecutar algún script en cierto minuto
-	else{
-	   $('.navbar').removeClass('fixed-top');
-    }
 });

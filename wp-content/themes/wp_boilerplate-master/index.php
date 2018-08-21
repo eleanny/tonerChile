@@ -1,34 +1,7 @@
 <?php get_header(); ?>
-  <section class="container-fluid p-0">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100 slyder" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tc5.png" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 slyder" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/door.jpg" alt="Second slide">
-      <div class="carousel-caption d-none d-md-block text-white background rounded">
-        <h2 class="pt-5 text-white">Calidad garantizada</h2>
-        <h3 class=" text-white">Tres meses de garantia</h3>
-        <button type="button" class="btn btn-primary m-3">Contáctanos!</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 slyder" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/colors.jpg" alt="Third slide">
-    </div>
-    </div>
-     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  </div>
-  </section>
-  <section class="title bg-ligth">
-     <h3 class="text-center text-dark p-5">Productos</h3>
+  <?php get_template_part('carousel'); ?>
+  <section class="title title-products m-4">
+     <h3 class="text-center text-dark p-5">Nuestro Producto</h3>
   </section>
   <section class="producto p-5">
     <div class="container">
@@ -49,28 +22,28 @@
         
     </div>
   </section>
-  <div class="title">
+  <div class="title title-services m-4">
      <h3 class="text-center text-dark p-5">Servicios</h3>
   </div>
-  <div class="container text-center services">
+  <div class="container text-center py-3">
      <div class="row">
-        <div class="col-md-4 p-5">
+        <div class="col-md-4 py-5">
           <i class="fas fa-2x fa-wrench text-warning"></i>
           <h4>Servicio tecnico de impresoras</h4>
           <p>Reparamos tu impresora y la dejamos como nueva.</p>
           
         </div>
-        <div class=" col-md-4 p-5">
+        <div class=" col-md-4 py-5">
           <i class="fas fa-2x fa-exchange-alt text-success"></i>
           <h4>Recarga de Toner</h4>
-          <p>Tenemos una gran variedad de toner</p>
+          <p>Contamos con la mejor tinta para toners.</p>
         </div>
-       <div class="col-md-4 p-5">
+       <div class="col-md-4 py-5">
          <i class="fas fa-2x fa-shopping-cart text-info"></i>
          <h4>Venta de Toner</h4>
-         <p>contamos con toner para las marcas</p>
+         <p>Toner compatible con todas las marcas de impresora.</p>
        </div>
      </div>
    </div>
-  <?php get_footer(); ?>
+<?php get_footer(); ?>
   
