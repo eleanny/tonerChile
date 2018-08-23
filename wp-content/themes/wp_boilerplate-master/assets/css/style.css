@@ -4,14 +4,12 @@
  * @author eleannybm
  * @since 1.0
  */
-body{
-	
-}
+
 h2{
 	font-size: 4rem;
 }
-.header{
-	height: 100px;
+.jumbotron{
+	height: 200px;
 }
 .barra{
 	font-size: 1em;
@@ -22,13 +20,16 @@ h2{
 }
 .title{
 	font-size: 2em;
-	text-decoration: underline;
 }
 .title-products{
 	background-color: #80ffff;
 }
 .title-services{
 	background-color: #ffff80;
+}
+.title-brand{
+	background-color: #4CB1FF;
+	height: 200px;
 }
 .background{
 	width: 100%;
@@ -43,9 +44,70 @@ h2{
 #map{
  height: 800px;
 }
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 20%;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 25%;
+}
 .footer{
 	background-color: #cccccc;
 }
 .footer-inner{
 	background-color: #ff00ff;
+}
+.footer-copyright{
+	background-color: #ecf0f1;
 }
