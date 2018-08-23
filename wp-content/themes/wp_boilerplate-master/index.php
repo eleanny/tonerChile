@@ -1,7 +1,7 @@
 <?php get_header(); ?>
   <?php get_template_part('carousel'); ?>
   <section class="title title-products m-4">
-     <h3 class="text-center text-dark p-5">Nuestro Producto</h3>
+     <h3 class="text-center text-white p-5">Nuestro Producto</h3>
   </section>
   <section class="producto p-5">
     <div class="container">
@@ -23,7 +23,7 @@
     </div>
   </section>
   <div class="title title-services m-4">
-     <h3 class="text-center text-dark p-5">Servicios</h3>
+     <h3 class="text-center text-white p-5">Servicios</h3>
   </div>
   <div class="container text-center py-3">
      <div class="row">

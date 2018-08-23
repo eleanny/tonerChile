@@ -1,6 +1,6 @@
 <section class="title title-brand m-0 p-0">
  <h3 class="text-center text-white p-2">Compatible con todas las marcas</h3>
- 
+
  <div class="container slider">
   <div class="slide-track col-md-12">
     <div class="slide p-3 mr-5">
@@ -41,3 +41,4 @@
     </div>
   </div>
 </div>
+</section>

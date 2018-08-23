@@ -12,7 +12,8 @@ h2{
 	height: 200px;
 }
 .barra{
-	font-size: 1em;
+	font-size: 1.2em;
+	background-color: #4CB1FF;
 }
 #slyder{
 	width: 100%;
@@ -22,10 +23,10 @@ h2{
 	font-size: 2em;
 }
 .title-products{
-	background-color: #80ffff;
+	background-color:  #F66D82;
 }
 .title-services{
-	background-color: #ffff80;
+	background-color: #FEBD1B;
 }
 .title-brand{
 	background-color: #4CB1FF;
@@ -106,7 +107,7 @@ h2{
 	background-color: #cccccc;
 }
 .footer-inner{
-	background-color: #ff00ff;
+	background-color: #54D189;
 }
 .footer-copyright{
 	background-color: #ecf0f1;
