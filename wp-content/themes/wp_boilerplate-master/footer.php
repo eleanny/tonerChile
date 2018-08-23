@@ -39,7 +39,7 @@
 
 
 
-               <div class="col-md-5 col-lg-2 col-xl-2 mx-auto mb-4">
+               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
                  <!-- Links -->
                    <h6 class="text-uppercase font-weight-bold">Nosotros</h6>
@@ -49,16 +49,23 @@
                   </p>
 
                </div>
+               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                   <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Metodos de Pago</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Efectivo y tranferencias bancarias.</p>
+                </div>
 
-               <!-- Links -->
-               <h6 class="text-uppercase font-weight-bold">Contacto</h6>
-               <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-               <p><i class="fa fa-home mr-3"></i> Comuna Padre Hurtado, Santiago de Chile</p>
-               <p><i class="fa fa-envelope mr-3"></i>ventas@tonerchile.cl</p>
-               <p><i class="fa fa-phone mr-3"></i>(2) 2521 6378</p>
-             </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                   <!-- Links -->
+                   <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+                   <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                   <p><i class="fa fa-home mr-3"></i> Comuna Padre Hurtado, Santiago de Chile</p>
+                   <p><i class="fa fa-envelope mr-3"></i>ventas@tonerchile.cl</p>
+                   <p><i class="fa fa-phone mr-3"></i>(2) 2521 6378</p>
+                </div>
 
          </div>
      </div>
