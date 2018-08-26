@@ -13,10 +13,10 @@
          <div class="col-md-4">
            <!-- Facebook -->
            <a class="fb-ic">
-             <i class="fab fa-whatsapp fa-3x mt-5 text-success"></i>
+             <a href="https://api.whatsapp.com/send?phone=56954700888"><i class="fab fa-whatsapp fa-3x mt-5 text-success"></i></a>
            </a>
            <a href="">
-             <i class="fab fa-facebook-messenger text-primary fa-3x ml-3 mt-5 mr-5"></i>
+             <a href="https://m.me/TONERCHILECL"><i class="fab fa-facebook-messenger text-primary fa-3x ml-3 mt-5 mr-5"></i></a>
            </a>
          </div>
          <div class="col-md-4">
