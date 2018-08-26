@@ -6,30 +6,32 @@
 	   <meta name="viewport" content="width=device-width, initial-scale=1">
      <?php wp_head(); ?>
   </head>
-  <body style="background-color: #ecf0f1;">
+  <body>
     <div class="container rounded bg-white p-0">
-     <div class="jumbotron text-center bg-white p-0">
-          <div class="row">
-              <div class="col-md-4">
-                 <!-- Facebook -->
-                <a class="fb-ic">
-                   <i class="fab fa-whatsapp fa-3x mt-5 text-success"></i>
-                 </a>
-                 <a href=""><i class="fab fa-facebook-messenger text-primary fa-3x ml-3 mt-5 mr-5"></i></a>
-             </div>
-             <div class="col-md-4">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="p-0 m-0" width="60%" height="auto"> 
-             </div>
-             <div class="col-md-4">
-               <form class="form-inline pt-5 ml-5 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-               <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-               </form>
-            </div>
-        </div>
-    </div>
+     <section class="header jumbotron text-center bg-white p-0">
+       <div class="row">
+         <div class="col-md-4">
+           <!-- Facebook -->
+           <a class="fb-ic">
+             <i class="fab fa-whatsapp fa-3x mt-5 text-success"></i>
+           </a>
+           <a href="">
+             <i class="fab fa-facebook-messenger text-primary fa-3x ml-3 mt-5 mr-5"></i>
+           </a>
+         </div>
+         <div class="col-md-4">
+           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="header-logo p-0 m-0" width="60%" height="auto"> 
+         </div>
+         <div class="col-md-4">
+           <form class="form-inline pt-5 ml-5 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+           </form>
+         </div>
+       </div>
+     </section>
       <!--Barra de Navegacion-->
-      <nav class="navbar barra navbar-expand-lg navbar-ligt bg-primary">
+      <nav class="navbar barra navbar-expand-lg navbar-white bg-primary">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

@@ -1,6 +1,7 @@
   <footer class="footer">
+     <!--footer-->
      <div class="footer-inner">
-       <div class="">
+       <div>
 
           <div class="row py-4 d-flex align-items-center">
 
@@ -69,8 +70,8 @@
 
          </div>
      </div>
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3 text-dark">© 2018 Copyright:
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-dark">© 2018 Copyright:
          <a href=" " class="text-secondary"> tonerchile.cl</a>
        </div>
         <!-- Copyright -->
