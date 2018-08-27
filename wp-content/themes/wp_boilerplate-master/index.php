@@ -1,45 +1,7 @@
 <?php get_header(); ?>
   <?php get_template_part('carousel'); ?>
-  <section class="title title-products m-4">
-     <h3 class="text-center text-white p-5">Nuestro Producto</h3>
-  </section>
-  <section class="producto p-5">
-    <div class="container">
-       <div class="row">
-         <div class="col-md-6">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/producto.jpeg" width="80%">
-         </div>
-         <div class="col-md-6 p-4">
-           <h4 class="text-dark">El mejor cartucho</h4>
-           <p class="pt-5">Toner alternativos importados, sellados de fabrica, no son remanufacturados, ni recargado, ni reciclado. </p>
-         </div>
-       </div>
-        
-    </div>
-  </section>
-  <div class="title title-services m-4">
-     <h3 class="text-center text-white p-5">Servicios</h3>
-  </div>
-  <div class="container text-center py-3">
-     <div class="row">
-        <div class="col-md-4 py-5">
-          <i class="fas fa-2x fa-wrench text-warning"></i>
-          <h4>Servicio tecnico de impresoras</h4>
-          <p>Reparamos tu impresora y la dejamos como nueva.</p>
-          
-        </div>
-        <div class=" col-md-4 py-5">
-          <i class="fas fa-2x fa-exchange-alt text-success"></i>
-          <h4>Recarga de Toner</h4>
-          <p>Contamos con la mejor tinta para toners.</p>
-        </div>
-       <div class="col-md-4 py-5">
-         <i class="fas fa-2x fa-shopping-cart text-info"></i>
-         <h4>Venta de Toner</h4>
-         <p>Toner compatible con todas las marcas de impresora.</p>
-       </div>
-     </div>
-   </div>
-<?php get_template_part('slyder'); ?>
+  <?php get_template_part('product'); ?>
+  <?php get_template_part('services'); ?>
+  <?php get_template_part('slyder'); ?>
 <?php get_footer(); ?>
   
