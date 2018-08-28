@@ -42,9 +42,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav m-auto">
-                 <a class="nav-item nav-link active text-white" href="http://localhost:8888/home/">Inicio<span class="sr-only">(current)</span></a>
-                 <a class="nav-item nav-link text-white" href="http://localhost:8888/productos/">Productos</a>
-                 <a class="nav-item nav-link text-white" href="http://localhost:8888/contacto/">Contacto</a>
+                 <a class="nav-item nav-link active text-white" href="/">Inicio<span class="sr-only">(current)</span></a>
+                 <a class="nav-item nav-link text-white" href="/productos/">Productos</a>
+                 <a class="nav-item nav-link text-white" href="/contacto/">Contacto</a>
                </div>
           </div>
      </nav>
