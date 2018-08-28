@@ -2,11 +2,11 @@
 <section class="title title-products m-4">
      <h3 class="text-center text-white p-5">Nuestro Producto</h3>
   </section>
-  <section class="producto p-5">
+  <section class="product p-5">
     <div class="container">
        <div class="row">
          <div class="col-md-6">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/producto.jpeg" width="80%">
+            <img class="product-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/producto.jpeg">
          </div>
          <div class="col-md-6 p-4">
            <h4 class="text-secondary">El mejor cartucho</h4>
