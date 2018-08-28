@@ -6,7 +6,7 @@
           <div class="row py-4 d-flex align-items-center">
 
               <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-               <h6 class="mb-0 ml-2 text-white">Conectate a nuestras Redes Sociales!</h6>
+               <h6 class="mb-0 ml-3 text-white">Conectate a nuestras Redes Sociales!</h6>
               </div>
 
                <div class="col-md-6 col-lg-7 text-center text-md-right">
@@ -35,7 +35,7 @@
 
                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                    <!-- Logo -->
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="m-0 p-0" width="100%">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="footer-logo m-0 p-0" width="100%">
               </div>
 
 

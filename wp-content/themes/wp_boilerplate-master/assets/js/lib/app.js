@@ -30,8 +30,6 @@ $(document).ready(function(){
 
          function initMap(city) {
   	         var map;
-  	         var latitud = coord[city].lat;
-  	         var longitud = coord[city].lng;
              map = new google.maps.Map(document.getElementById('map'), {
              center: {lat: -18.4833 , lng: -70.3333 },
              zoom: 8
@@ -48,6 +46,13 @@ $(document).ready(function(){
          }).then(function(){
          	initMap('santiago');
          } );
+
+         $(".title").mouseover( function(){
+           $(".title").css("background-color", "lightgray");
+          });
+         $(".title").mouseout(function(){
+           $(".title").css("background-color", "lightgray");
+          });
            
  
 

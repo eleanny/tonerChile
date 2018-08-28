@@ -15,15 +15,18 @@ p{
 	font-size: 400;
 	color: grey;
 }
-.jumbotron{
+.header{
 	height: 150px;
 }
 .barra{
 	font-size: 1.2em;
 	background-color: #4CB1FF;
 }
-.black{
-	color: black;
+.nav-form{
+	display: none;
+}
+.nav-logo{
+  display: none;
 }
 #slyder{
 	width: 100%;
@@ -31,6 +34,7 @@ p{
 }
 .title{
 	font-size: 2em;
+	cursor:pointer;
 }
 .title-products{
 	background-color:  #F66D82;
@@ -121,4 +125,36 @@ p{
 }
 .footer-copyright{
 	background-color: #ecf0f1;
+}
+@media only screen and (max-width: 767px){
+body{
+	padding: 20px;
+   }
+.header-logo{
+ 	width: 30%;
+ }
+.header{
+ 	display: none;
+ }
+.nav-logo{
+    display: inline;
+    height: auto;
+  }
+.nav-form{
+	display: inline;
+	width: 45%;
+	height: auto;
+  }
+.slider {
+   width: 80%;
+  }
+.fab{
+	font-size: 30px;
+ }   
+.contacto{
+ 	width: 20%;
+ }
+.footer-logo{
+	width: 80%;
+  }
 }
