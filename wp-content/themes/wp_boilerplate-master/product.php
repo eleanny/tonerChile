@@ -9,7 +9,7 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/producto.jpeg" width="80%">
          </div>
          <div class="col-md-6 p-4">
-           <h4 class="text-dark">El mejor cartucho</h4>
+           <h4 class="text-secondary">El mejor cartucho</h4>
            <p class="pt-5">Toner alternativos importados, sellados de fabrica, no son remanufacturados, ni recargado, ni reciclado. 
            100% Garantizado.</p>
          </div>

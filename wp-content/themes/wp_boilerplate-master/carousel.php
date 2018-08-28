@@ -8,14 +8,16 @@
         <img id="slyder" class="d-block w-100 " src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/door.jpg" alt="Second slide">
         <div class="carousel-caption d-none d-md-block text-white background rounded">
           <h2 class="pt-5 text-white">Calidad garantizada</h2>
-          <h3 class=" text-white">Tres meses de garantia</h3>
+          <h3 class="text-white">Tres meses de garantia</h3>
           <button type="button" class="btn btn-primary m-3">Contáctanos!</button>
         </div>
       </div>
       <div class="carousel-item">
         <img id="slyder" class="d-block w-100 " src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/colors.jpg" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block text-white background rounded">
-           <i class="text-white fas fa-truck fa-7x"></i>
+        <div class="carousel-caption d-none d-md-block background rounded">
+           <i class="pt-5 black fas fa-truck fa-10x"></i>
+           <h2 class="black">Envio Express</h2>
+           <h3 class="black">A toda la Región Metropolitana</h3>
         </div>
       </div>
     </div>
