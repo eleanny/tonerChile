@@ -1,24 +1,22 @@
-<!--servicios que ofrece la empresa-->
 <section class="title title-services m-4">
      <h3 class="text-center text-white p-5">Servicios</h3>
   </section>
   <div class="container text-center py-3">
-     <div class="row">
-        <div class="col-md-4 py-5">
-          <i class="fas fa-2x fa-wrench text-warning"></i>
-          <h4 class="text-secondary">Servicio tecnico de impresoras</h4>
-          <p>Reparamos tu impresora y la dejamos como nueva.</p>
-          
-        </div>
-        <div class=" col-md-4 py-5">
-          <i class="fas fa-2x fa-exchange-alt text-success"></i>
-          <h4 class="text-secondary">Recarga de Toner</h4>
-          <p>Contamos con la mejor tinta para toners.</p>
-        </div>
-       <div class="col-md-4 py-5">
-         <i class="fas fa-2x fa-shopping-cart text-info"></i>
-         <h4 class="text-secondary">Venta de Toner</h4>
-         <p>Toner compatible con todas las marcas de impresora.</p>
+        
+        <div class="row">
+           <?php query_posts('posts_per_page=3&post_type=servicio'); ?>
+           <?php if(have_posts()): while(have_posts()): the_post(); ?>
+               <div class="col-md-4 py-5">
+                 <?php $iconos = ['wrench','exchange-alt','shopping-cart']; ?>
+                 <?php $colores = ['text-warning','text-success','text-info']; ?>
+                 <?php foreach($iconos as $icons): ?>
+                  <?php if(get_post_meta(get_the_ID(), $icons,true)): ?>
+                      <i class="fas fa-2x fa-<?php echo $icons; ?> <?php echo $colores[1]; ?>"></i>
+                     <h4 class="text-secondary"><?php the_title(); ?></h4>
+                     <p><?php the_content(); ?></p>
+               </div>
+           <?php endif; ?>
+           <?php endforeach; ?>
+          <?php endwhile; endif;?>
        </div>
-     </div>
-   </div>
+ </div>

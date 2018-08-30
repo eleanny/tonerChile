@@ -40,5 +40,6 @@
      add_theme_support( 'wc-product-gallery-slider' );
     }
     add_action( 'after_setup_theme', 'yourtheme_setup' );
-
+ 
+    add_action( 'init', 'my_custom_init' );
 ?>

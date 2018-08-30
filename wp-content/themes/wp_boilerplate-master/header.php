@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container rounded bg-white p-0">
-     <section class="header container text-center bg-white p-0">
+     <section class="header container text-center bg-ligth p-0">
        <div class="row">
          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-4 mx-auto">
            <!-- Facebook -->
