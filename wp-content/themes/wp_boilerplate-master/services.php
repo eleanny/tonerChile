@@ -11,7 +11,7 @@
                  <?php $colores = ['text-warning','text-success','text-info']; ?>
                  <?php foreach($iconos as $icons): ?>
                   <?php if(get_post_meta(get_the_ID(), $icons,true)): ?>
-                      <i class="service-fas fas fa-2x fa-<?php echo $icons; ?>  <?php echo $colores[1]; ?>"></i>
+                      <i class="service-fas fas fa-2x fa-<?php echo $icons; ?>  <?php echo $colores[2]; ?>"></i>
                      <h4 class="text-secondary"><?php the_title(); ?></h4>
                      <p><?php the_content(); ?></p>
                </div>

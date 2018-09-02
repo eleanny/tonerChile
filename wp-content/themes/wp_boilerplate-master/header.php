@@ -25,7 +25,7 @@
          <div class="header-form col-sm-12 col-md-5 col-lg-5 col-xl-4 mx-auto">
            <form class="form-inline pt-5 ml-5 my-lg-0 my-xl-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+              <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
            </form>
          </div>
        </div>

@@ -53,9 +53,12 @@ p{
 	background-color: #4CB1FF;
 	height: 200px;
 }
+.products-text{
+   font-size: 1.4rem;
+}
 .product-img{
-	width: 80%;
-	height: 150px;
+	width: 70%;
+	height: 200px;
 }
 .map{
   width : 80%;
