@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
-	   <title>Toner CHILE</title>
+	   <title>Toner CHILE | Venta y recarga de toner en Chile</title>
 	   <meta charset="<?php bloginfo('charset') ?>">
 	   <meta name="viewport" content="width=device-width, initial-scale=1">
      <?php wp_head(); ?>
@@ -20,8 +20,8 @@
            </a>
          </div>
          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
-           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="header-logo p-0 mt-2 ml-5" width="70%" height="auto"> 
-         </div>
+          <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="header-logo p-0 mt-0 mb-4 ml-5"> 
+         </div></h1> 
          <div class="header-form col-sm-12 col-md-5 col-lg-5 col-xl-4 mx-auto">
            <form class="form-inline pt-5 ml-5 my-lg-0 my-xl-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -32,7 +32,7 @@
      </section>
       <!--Barra de Navegacion-->
       <nav class="navbar barra navbar-expand-lg navbar-white bg-primary">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="nav-logo p-0 m-0" width="30%" height="auto">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="nav-logo p-0 m-0">
           <form class="nav-form form-inline">
             <input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search">
          </form> 

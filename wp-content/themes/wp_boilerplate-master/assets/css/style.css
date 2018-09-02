@@ -18,6 +18,10 @@ p{
 .header{
 	height: 150px;
 }
+.header-logo{
+  width: 70%; 
+  height :auto;
+}
 .barra{
 	font-size: 1.2em;
 	background-color: #4CB1FF;
@@ -115,8 +119,14 @@ p{
   height: 100px;
   width: 25%;
 }
+.deep-purple{
+  width: 60px;
+}
 .footer{
 	background-color: #cccccc;
+}
+.footer-logo{
+  width:  100%;
 }
 .footer-inner{
 	background-color: #54D189;
@@ -141,6 +151,7 @@ body{
  }
 .nav-logo{
     display: inline;
+    width: 30%;
     height: auto;
   }
 .nav-form{

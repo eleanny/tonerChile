@@ -35,7 +35,7 @@
 
                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                    <!-- Logo -->
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="footer-logo m-0 p-0" width="100%">
+                  <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_TonerChile.png" class="footer-logo m-0 p-0"></h1>
               </div>
 
 
@@ -44,8 +44,8 @@
 
                  <!-- Links -->
                    <h6 class="text-uppercase font-weight-bold">Nosotros</h6>
-                   <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p>
+                   <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                   <p>
                    Empresa dedicada a la venta y reparación de insumos para impresoras , ofrecemos recargas y venta de toner con mas de 10 años de experiencia en el mercado.  
                   </p>
 
@@ -54,7 +54,7 @@
 
                    <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Metodos de Pago</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                     <p>Efectivo y tranferencias bancarias.</p>
                 </div>
 
@@ -62,7 +62,7 @@
 
                    <!-- Links -->
                    <h6 class="text-uppercase font-weight-bold">Contacto</h6>
-                   <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                   <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                    <p><i class="fa fa-home mr-3"></i> Comuna Padre Hurtado, Santiago de Chile</p>
                    <p><i class="fa fa-envelope mr-3"></i>ventas@tonerchile.cl</p>
                    <p><i class="fa fa-phone mr-3"></i>(2) 2521 6378</p>
