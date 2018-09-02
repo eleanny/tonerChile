@@ -43,9 +43,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav m-auto">
-                 <a class="nav-item nav-link active text-white" href="/">Inicio<span class="sr-only">(current)</span></a>
-                 <a class="nav-item nav-link text-white" href="/productos/">Productos</a>
-                 <a class="nav-item nav-link text-white" href="/contacto/">Contacto</a>
+                 <a class="nav-item nav-link active text-white" href="<?php bloginfo('url') ?>/">Inicio<span class="sr-only">(current)</span></a>
+                 <a class="nav-item nav-link text-white" href="<?php bloginfo('url') ?>/productos/">Productos</a>
+                 <a class="nav-item nav-link text-white" href="<?php bloginfo('url') ?>/contacto/">Contacto</a>
                </div>
           </div>
      </nav>
