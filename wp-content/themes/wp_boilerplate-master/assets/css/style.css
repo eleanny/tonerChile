@@ -53,11 +53,9 @@ p{
 	width: 80%;
 	height: 150px;
 }
-#contact{
-	width: 50%;
-}
-#map{
- height: 800px;
+.map{
+  width : 80%;
+  height: 500px;
 }
 @-webkit-keyframes scroll {
   0% {
@@ -126,12 +124,13 @@ p{
 .footer-copyright{
 	background-color: #ecf0f1;
 }
+/*header*/
 @media only screen and (max-width: 767px){
 body{
 	padding: 20px;
    }
  h2,h3{
- 	font-size: 2.3rem;
+ 	font-size: 2rem;
  	text-align: center;
  }
 .header-logo{
@@ -149,23 +148,33 @@ body{
 	width: 45%;
 	height: auto;
   }
+}
+/*body*/
+@media only screen and (max-width: 767px){
 .title-brand{
 	height: 250px;
 }
-.slider {
-   width: 80%;
-  }
 .fab{
 	font-size: 30px;
  }  
- .fas{
- 	font-size: 100px;
- } 
- .services-fas{
- 	font-size: 40px;
+ .fa-bars{
+   font-size: 20px;
  }
+ .fa-truck{
+  font-size: 100px;
+ }
+ .services-fas{
+ 	font-size: 30px;
+ }
+ .slider {
+   width: 80%;
+  }
 .contacto{
  	width: 20%;
+ }
+ .map{
+  width : 80%;
+  height: 200px;
  }
 .footer-logo{
 	width: 80%;

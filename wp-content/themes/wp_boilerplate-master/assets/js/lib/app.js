@@ -13,47 +13,20 @@ $(window).scroll(function(){
 });
 $(document).ready(function(){
 
-    var coord = {
-	        santiago: {
-	        	lat: -33.4488897,
-	        	lng: -70.6692655
-	        },
-	        concepcion: {
-	        	lat: -36.8282,
-	        	lng: -73.0514
-	        },
-	        arica: {
-	        	lat: -18.4833,
-	        	lng: -70.3333
-	        }
-         };
-
-         function initMap(city) {
-  	         var map;
-             map = new google.maps.Map(document.getElementById('map'), {
-             center: {lat: -18.4833 , lng: -70.3333 },
-             zoom: 8
-            });
-             var marker = new google.maps.Marker({
-
-             position: {lat: latitud, lng: longitud},
-             map: map
-            });
-        }
-         $.ajax({
-            url: 'https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/js?key=AIzaSyD9g9f9fsMPAFdFx0XGUfhmsBWI0gYGK4U&callback=initMap',
-            method: 'GET'
-         }).then(function(){
-         	initMap('santiago');
-         } );
-
-         $(".title").mouseover( function(){
-           $(".title").css("background-color", "lightgray");
-          });
-         $(".title").mouseout(function(){
-           $(".title").css("background-color", "lightgray");
+         $(".title-products").mouseover( function(){
+           $(".title-products").css({ opacity: 0.8 });
+           });
+         $(".title-products").mouseout(function(){
+           $(".title-products").css({'background-color': '#F66D82',
+            opacity: 1});
           });
            
- 
+         $(".title-services").mouseover( function(){
+           $(".title-services").css({ opacity: 0.8 });
+           });
+         $(".title-services").mouseout(function(){
+           $(".title-services").css({'background-color': '#FEBD1B',
+            opacity: 1});
+          });
 
 });
