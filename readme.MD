@@ -7,11 +7,11 @@ y poco contenido en su pagina web.
 #### Usuario y clave de Wordpress
 eleannybm
 #pmxoCubuEL3@^o9fV
-#####Plungin Utilizados en wp
+#### Plungin Utilizados en wp
 -Woocommerce
 -Contact form 7
 -Yoast Seo
-######Instrucciones de despliegue
+##### Instrucciones de despliegue
 1. Descargar Wordpress
 2. Crear una bd en phpyandmin
 3. Configurar Wordpress
