@@ -5,7 +5,7 @@
           <img id="slyder" class="d-block w-100 " src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tn1.png" alt="First slide">
           <div class="carousel-caption d-md-block carousel-ppal">
             <h2 class="pl-5 ml-5 text-warning">Venta y Recarga</h2>
-            <h2 class="pl-5 pb-5 text-danger">De Toner</h2>
+            <h2 class="pl-5 pb-5 text-danger">De Toner en Chile</h2>
           </div>
        </div>
        <div class="carousel-item">

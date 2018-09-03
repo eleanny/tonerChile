@@ -53,7 +53,7 @@
                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Metodos de Pago</h6>
+                    <h6 class="text-uppercase font-weight-bold">Métodos de Pago</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                     <p>Efectivo y transferencias bancarias.</p>
                 </div>

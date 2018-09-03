@@ -5,7 +5,7 @@
   <section class="product p-5">
     <div class="container">
        <div class="row">
-         <div class="col-md-6 p-2">
+         <div class="col-md-6 p-2 text-center">
             <img class="product-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/producto.jpeg">
          </div>
          <div class="col-md-6 p-4">
