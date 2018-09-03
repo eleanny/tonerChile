@@ -20,7 +20,7 @@
         <div class="carousel-caption d-md-block carousel-ppal">
            <i class="pt-0 text-primary fas fa-truck fa-10x"></i>
            <h2 class="text-danger">Envio Express</h2>
-           <h3 class="text-danger">A toda la Región Metropolitana</h3>
+           <h3 class="text-primary">A toda la Región Metropolitana</h3>
         </div>
       </div>
     </div>
